@@ -9,7 +9,7 @@ import helloworldmvc.model.Model;
 
 /**
  *
- * @author 2dam
+ * @author Derlis Daniel Brizuela Gimenez y Jonathan
  */
 public interface View {
 

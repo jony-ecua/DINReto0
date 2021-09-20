@@ -13,7 +13,7 @@ import helloworldmvc.view.ViewFactory;
 
 /**
  *
- * @author 2dam
+ * @author Derlis Daniel Brizuela Gimenez y Jonathan
  */
 public class Application {
 
@@ -22,6 +22,7 @@ public class Application {
      */
     public static void main(String[] args) {
         
+        //Saludo en vista de Texto, se crea un objeto implementacion (vistaF) desde la factoria para la vista y lo mismo para el modelo
         View vista;
         ViewFactory vistaF = new ViewFactory();
         vista = vistaF.getView();
@@ -30,6 +31,7 @@ public class Application {
         ModelFactory modeloF = new ModelFactory();
         modelo = modeloF.getModel();
         
+        //el controlador se encarga de conectar el modelo con la vista para pasarle el saludo y arrancar el programa (run())
         Controller control = new Controller(vista, modelo);
         control.run();
         

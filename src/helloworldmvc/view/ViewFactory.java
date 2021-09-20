@@ -7,7 +7,7 @@ package helloworldmvc.view;
 
 /**
  *
- * @author 2dam
+ * @author Derlis Daniel Brizuela Gimenez y Jonathan
  */
 public class ViewFactory {
     
