@@ -5,10 +5,17 @@
  */
 package helloworldmvc.viewswing;
 
+import helloworldmvc.view.View;
+
 /**
  *
  * @author 2dam
  */
-public class SwingViewImplementation {
+public class SwingViewImplementation implements View{
+
+    @Override
+    public void showGreeting(String saludo) {
+        
+    }
     
 }

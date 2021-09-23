@@ -5,8 +5,6 @@
  */
 package helloworldmvc.view;
 
-import helloworldmvc.model.Model;
-
 /**
  *
  * @author Derlis Daniel Brizuela Gimenez y Jonathan

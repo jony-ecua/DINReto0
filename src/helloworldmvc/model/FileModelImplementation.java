@@ -18,7 +18,7 @@ public class FileModelImplementation implements Model{
 
     @Override
     public String getGreeting() {
-        //Leer archivo de propiedades "greeting" y guardar el String
+        //Leer archivo de propiedades "greeting" y guardar el String en la variable "saludo"
         this.greetingFile = ResourceBundle.getBundle("file.greeting");
         this.saludo = greetingFile.getString("greeting");
         return saludo;   
