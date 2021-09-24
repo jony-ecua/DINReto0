@@ -14,13 +14,18 @@ import static org.junit.Assert.*;
  */
 public class ModelFactoryTest {
 
+    /*
+    *Hace una prueba si el objeto no es nulo y si es un Model
+    */
     @Test
     public void testNotNullAndModelReturn() {
         //objeto a testear
         ModelFactory modelF = new ModelFactory();
-        Model modelo;
+        Model modelo = null;
+        
         
         assertNotNull("El objeto es nulo",modelF);
+        assertEquals(modelo, modelF.getModel());
     }
     
 }

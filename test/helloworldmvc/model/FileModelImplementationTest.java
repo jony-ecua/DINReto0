@@ -7,14 +7,15 @@ package helloworldmvc.model;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.Ignore;
 
 /**
  *
  * @author 2dam
  */
 public class FileModelImplementationTest {
-    
+    /*
+    *Hace una prueba para saber si el saludo devuelto es el correcto
+    */
     @Test
     public void testGetGreeting() {
         //Se crea el objeto para el test
