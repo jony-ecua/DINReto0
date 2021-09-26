@@ -8,7 +8,7 @@ import helloworldmvc.view.ViewFactory;
 
 /**
  *
- * @author Derlis Daniel Brizuela Gimenez y Jonathan
+ * @author Derlis Daniel Brizuela Gimenez y Jonathan Viñan
  */
 public class Application {
 
@@ -26,7 +26,7 @@ public class Application {
         ModelFactory modeloF = new ModelFactory();
         modelo = modeloF.getModel();
 
-        //el controlador se encarga de conectar el modelo con la vista para para pasar el saludo y mostrarlo al arrancar el programa (run)
+//el controlador se encarga de conectar el modelo con la vista para para pasar el saludo y mostrarlo al arrancar el programa (run)
         Controller control = new Controller(vista, modelo);
         control.run();
 

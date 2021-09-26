@@ -1,5 +1,6 @@
 package helloworldmvc.view;
 
+import helloworldmvc.viewjavafx.JavaFxViewImplementation;
 import helloworldmvc.viewswing.SwingViewImplementation;
 import java.util.ResourceBundle;
 
@@ -26,6 +27,9 @@ public class ViewFactory {
         } else if (viewType.equals("S")) {
             SwingViewImplementation viewSwing = new SwingViewImplementation();
             vista = viewSwing;
+        } else if (viewType.equals("J")) {
+            JavaFxViewImplementation viewJavaFx = new JavaFxViewImplementation();
+            vista = viewJavaFx;
         } else {
             System.out.println("ERROR, tipo de Vista no válida");
         }

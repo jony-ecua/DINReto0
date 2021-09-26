@@ -4,7 +4,7 @@ import java.util.ResourceBundle;
 
 /**
  *
- * @author Derlis Daniel Brizuela Gimenez y Jonathan
+ * @author Derlis Daniel Brizuela Gimenez y Jonathan Viñan
  */
 public class FileModelImplementation implements Model {
 
