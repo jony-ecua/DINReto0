@@ -2,7 +2,7 @@ package helloworldmvc.model;
 
 /**
  *
- * @author Derlis Daniel Brizuela Gimenez y Jonathan
+ * @author Daniel Brizuela y Jonathan Viñan
  */
 public interface Model {
 

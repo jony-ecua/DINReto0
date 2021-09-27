@@ -4,7 +4,7 @@ import java.util.ResourceBundle;
 
 /**
  *
- * @author Derlis Daniel Brizuela Gimenez y Jonathan Viñan
+ * @author Daniel Brizuela y Jonathan Viñan
  */
 public class FileModelImplementation implements Model {
 
@@ -12,9 +12,9 @@ public class FileModelImplementation implements Model {
     private String saludo;
 
     /**
-     * Retorna un saludo desde un archivo de propiedades
+     * Metodo que lee y retorna un saludo desde un archivo de propiedades
      *
-     * @return devuelve el saludo extraido del archivo de configuracion
+     * @return devuelve el saludo extraido del archivo de propiedades
      */
     @Override
     public String getGreeting() {

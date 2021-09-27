@@ -5,7 +5,7 @@ import helloworldmvc.view.View;
 
 /**
  *
- * @author Derlis Daniel Brizuela Gimenez y Jonathan
+ * @author Daniel Brizuela y Jonathan Viñan
  */
 public class Controller {
 
@@ -13,7 +13,12 @@ public class Controller {
     private Model modeloC;
     private View vistaC;
 
-    //el contructor recoge tanto la vista como el modelo desde el main
+    /**
+     * el contructor recoge tanto la vista como el modelo desde el main
+     *
+     * @param vista recoge la la imlementacion de la vista seleecionada
+     * @param modelo recoge la implementacion del modelo seleccionado
+     */
     public Controller(View vista, Model modelo) {
         this.modeloC = modelo;
         this.vistaC = vista;

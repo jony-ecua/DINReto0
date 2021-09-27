@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package helloworldmvc.viewjavafx;
 
 import javafx.fxml.FXML;
@@ -10,13 +5,12 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-
 import javafx.stage.WindowEvent;
 
 /**
  * FXML Controller class
  *
- * @author Jonathan Viñán
+ * @author Daniel Brizuela y Jonathan Viñán
  */
 public class FXML_Controller {
 
@@ -27,22 +21,42 @@ public class FXML_Controller {
     private String greeting;
     private Stage stage;
 
+    /**
+     *
+     * @param pane establece el panel en la ventana
+     */
     public void setPane(Pane pane) {
         this.pane = pane;
     }
 
+    /**
+     *
+     * @param label
+     */
     public void setLabel(Label label) {
         this.label = label;
     }
 
+    /**
+     *
+     * @param greeting
+     */
     public void setGreeting(String greeting) {
         this.greeting = greeting;
     }
 
+    /**
+     *
+     * @param stage
+     */
     public void setStage(Stage stage) {
         this.stage = stage;
     }
 
+    /**
+     *
+     * @param event
+     */
     @FXML
     public void onShowWindow(WindowEvent event) {
 

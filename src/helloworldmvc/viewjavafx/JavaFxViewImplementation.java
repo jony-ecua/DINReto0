@@ -16,7 +16,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- * Clase que ejecurata la ventana
+ * Clase que ejecutara la ventana
  *
  * @author Daniel Brizuela y Jonathan Viñan
  */
@@ -25,11 +25,9 @@ public class JavaFxViewImplementation extends Application implements View {
     private String saludo;
 
     /**
-     *
-     * @param primaryStage Parametro para que la que la ventana se ejecute en
-     * primer plano
-     * @throws FileNotFoundException Controla si existe el fichero de
-     * propiedades
+     * @param primaryStage Parametro para que la que la ventana se ejecute en primer plano
+     * 
+     * @throws FileNotFoundException Controla si existe el fichero de propiedades
      * @throws IOException Controla la E/S
      */
     @Override

@@ -9,11 +9,13 @@ import java.util.ResourceBundle;
 
 /**
  *
- * @author Derlis Daniel Brizuela Gimenez y Jonathan
+ * @author Daniel Brizuela y Jonathan Viñan
  */
 public class BDModelImplementation implements Model {
 
-    //atributos para conectar a base de datos desde archivo configuracion
+    /**
+     * atributos para conectar a base de datos desde archivo configuracion
+     */
     private Connection con;
     private PreparedStatement stmt;
     private ResourceBundle configFile;
@@ -22,10 +24,14 @@ public class BDModelImplementation implements Model {
     private String userDB;
     private String passDB;
 
-    //Sentencia sql a ejecutar para buscar el saludo
+    /**
+     * Sentencia sql a ejecutar para seleccionar el saludo 
+     */
     private final String SELECTgreeting = "SELECT * FROM saludo";
 
-    //Conexion a BD
+    /**
+     * Conexion a BD
+     */
     public BDModelImplementation() {
         this.configFile = ResourceBundle.getBundle("file.config");
         this.driverDB = configFile.getString("driver");
@@ -43,9 +49,7 @@ public class BDModelImplementation implements Model {
     }
 
     /**
-     *
-     * @throws SQLException suelta una exception si ocurre un error al cerrar la
-     * BD
+     * @throws SQLException suelta una exception si ocurre un error al cerrar la BD
      */
     private void closeConnection() throws SQLException {
         if (stmt != null) {
@@ -58,8 +62,7 @@ public class BDModelImplementation implements Model {
     }
 
     /**
-     * metodo que busca el saludo y lo guarda en un resultset para poder
-     * mostrarlo
+     * metodo que busca el saludo y lo guarda en un resultset para poder mostrarlo
      *
      * @return devuelve un string (greeting) guardado en la variable saludo
      */

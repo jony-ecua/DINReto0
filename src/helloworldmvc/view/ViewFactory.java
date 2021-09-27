@@ -2,11 +2,10 @@ package helloworldmvc.view;
 
 import helloworldmvc.viewjavafx.JavaFxViewImplementation;
 import helloworldmvc.viewswing.SwingViewImplementation;
-import java.util.ResourceBundle;
 
 /**
  *
- * @author Derlis Daniel Brizuela Gimenez y Jonathan
+ * @author Daniel Brizuela y Jonathan Viñan
  */
 public class ViewFactory {
 
@@ -14,12 +13,10 @@ public class ViewFactory {
      * retorna la implementacion de la vista requerida
      *
      * @return vista devuelve la implementacion de la vista
+     * @param viewType recoge un string "T", "S" o "J"
      */
-    public View getView() {
+    public View getView(String viewType) {
         View vista = null;
-        //Lee el archivo ce configuracion y guarda el string el string en una variable
-        ResourceBundle configFile = ResourceBundle.getBundle("file.config");
-        String viewType = configFile.getString("View_Type");
 
         if (viewType.equals("T")) {
             TextViewImplementation viewText = new TextViewImplementation();

@@ -1,10 +1,8 @@
 package helloworldmvc.model;
 
-import java.util.ResourceBundle;
-
 /**
  *
- * @author Derlis Daniel Brizuela Gimenez y Jonathan
+ * @author Daniel Brizuela y Jonathan Viñan
  */
 public class ModelFactory {
 
@@ -12,12 +10,10 @@ public class ModelFactory {
      * retorna la implementacion del modelo correspondiente
      *
      * @return modelo devuelve la implementacion del modelo
+     * @param modelType recoge un string "F" o "DB"
      */
-    public Model getModel() {
+    public Model getModel(String modelType) {
         Model modelo = null;
-        //Lee el archivo ce configuracion y guarda el string el string en una variable
-        ResourceBundle configFile = ResourceBundle.getBundle("file.config");
-        String modelType = configFile.getString("Model_Type");
 
         if (modelType.equals("F")) {
             FileModelImplementation modeloFile = new FileModelImplementation();
