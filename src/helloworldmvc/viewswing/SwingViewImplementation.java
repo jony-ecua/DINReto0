@@ -5,7 +5,8 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 /**
- *
+ * Clase que ejecutara la ventana de Swing
+ * 
  * @author Daniel Brizuela y Jonathan Viñan
  */
 public class SwingViewImplementation extends JFrame implements View {

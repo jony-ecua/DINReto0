@@ -4,12 +4,13 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
+ * Clase que ejecutara una prueba a la implementacion del archivo de propiedades para saber si el string que retorna es correcto
+ * 
  * @author Daniel Brizuela y Jonathan Viñan
  */
 public class FileModelImplementationTest {
-    /*
-    *Hace una prueba para saber si el saludo devuelto es el correcto
+    /**
+    * Hace una prueba para saber si el saludo devuelto es el correcto
     */
     @Test
     public void testGetGreeting() {

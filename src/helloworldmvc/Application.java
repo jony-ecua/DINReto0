@@ -8,12 +8,15 @@ import helloworldmvc.view.ViewFactory;
 import java.util.ResourceBundle;
 
 /**
- *
+ * Clase que ejecutara el programa
+ * 
  * @author Daniel Brizuela y Jonathan Viñan
  */
 public class Application {
 
     /**
+     * Main de la aplicacion
+     * 
      * @param args the command line arguments
      */
     public static void main(String[] args) {

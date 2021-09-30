@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
 /**
- * FXML Controller class
+ * FXML Clase controlador
  *
  * @author Daniel Brizuela y Jonathan Viñán
  */

@@ -8,7 +8,8 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 /**
- *
+ * Clase que se encarga de conectar a la Base de Datos para Recoger un String
+ * 
  * @author Daniel Brizuela y Jonathan Viñan
  */
 public class BDModelImplementation implements Model {
@@ -49,6 +50,8 @@ public class BDModelImplementation implements Model {
     }
 
     /**
+     * Metodo que se encarga de cerrar la base de datos
+     * 
      * @throws SQLException suelta una exception si ocurre un error al cerrar la BD
      */
     private void closeConnection() throws SQLException {

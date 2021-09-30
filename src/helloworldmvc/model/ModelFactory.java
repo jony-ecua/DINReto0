@@ -1,7 +1,8 @@
 package helloworldmvc.model;
 
 /**
- *
+ * Clase que se encarga de retornar una implementacion del modelo
+ * 
  * @author Daniel Brizuela y Jonathan Viñan
  */
 public class ModelFactory {

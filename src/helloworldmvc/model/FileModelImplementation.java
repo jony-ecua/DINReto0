@@ -3,7 +3,8 @@ package helloworldmvc.model;
 import java.util.ResourceBundle;
 
 /**
- *
+ * Clase que se encarga de leer un String de un archivo de propiedades
+ * 
  * @author Daniel Brizuela y Jonathan Viñan
  */
 public class FileModelImplementation implements Model {

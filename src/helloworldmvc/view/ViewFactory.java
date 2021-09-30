@@ -4,7 +4,8 @@ import helloworldmvc.viewjavafx.JavaFxViewImplementation;
 import helloworldmvc.viewswing.SwingViewImplementation;
 
 /**
- *
+ * Clase que se encarga de retornar una implementacion de la vista
+ * 
  * @author Daniel Brizuela y Jonathan Viñan
  */
 public class ViewFactory {
