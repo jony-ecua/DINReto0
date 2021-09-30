@@ -82,7 +82,7 @@ public class BDModelImplementation implements Model {
             rs = stmt.executeQuery();
 
             while (rs.next()) {
-                saludo = rs.getString("greeting");
+                saludo = rs.getString(1);
             }
 
         } catch (SQLException e) {
