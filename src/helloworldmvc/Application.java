@@ -15,7 +15,7 @@ import java.util.ResourceBundle;
 public class Application {
 
     /**
-     * Main de la aplicacion
+     * Main de la aplicacion.
      * 
      * @param args the command line arguments
      */
